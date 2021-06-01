@@ -75,7 +75,7 @@ namespace Hangman
             InputMethodManager inputManager = (InputMethodManager)GetSystemService(Context.InputMethodService);
             var currentFocus = CurrentFocus;
 
-            inputManager.HideSoftInputFromWindow(currentFocus.WindowToken, HideSoftInputFlags.None);
+          //  inputManager.HideSoftInputFromWindow(currentFocus.WindowToken, HideSoftInputFlags.None);
         }
         //Sort list name wise and update list view
         void UpdatePlayerList()
@@ -101,6 +101,9 @@ namespace Hangman
             {
                 Toast.MakeText(this, "Enter or Select a Player", ToastLength.Long).Show();
             }
+            
+    
+
         }
         // Validating entered data and set difficulty level according to player choice
         private void Play_Game(object sender, System.EventArgs e)
