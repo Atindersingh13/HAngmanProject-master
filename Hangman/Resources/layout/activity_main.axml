@@ -12,7 +12,7 @@
         android:layout_width="401.1dp"
         android:layout_height="310.5dp"
         android:id="@+id/linearLayout1">
-       
+       <!--<//hi>>-->
         <LinearLayout
             android:orientation="horizontal"
             android:minWidth="25px"
