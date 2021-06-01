@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+ <!--First linear layout start -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 	android:background="@color/op1">
+     <!--Imageview intailize images for hangman  -->
 	<ImageView
         android:src="@android:drawable/ic_menu_gallery"
         android:layout_width="match_parent"
@@ -11,6 +13,7 @@
         android:scaleType="fitCenter"
         android:id="@+id/imgfinal"
         android:padding="20dip" />
+     <!-- Second Linear layout-->
     <LinearLayout
         android:orientation="vertical"
         android:minWidth="25px"
@@ -19,6 +22,7 @@
         android:layout_height="53.5dp"
         android:id="@+id/linearLayout3"
 		android:gravity="center">
+         <!-- TextView shown Player name when you end the game -->
         <TextView
             android:text="Customer Name"
             android:textAppearance="?android:attr/textAppearanceLarge"
@@ -27,6 +31,7 @@
             android:layout_height="wrap_content"
 			android:textColor="@color/op3"
 			  />
+         <!-- TextView id:txtscore shown score at the ened of the game -->
 		 <TextView
         android:text="Score"
         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -36,7 +41,7 @@
 			android:textColor="@color/op3"
 	   />
     </LinearLayout>
-   
+    <!--Linear layout start -->
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
@@ -45,6 +50,7 @@
       
 		android:gravity="center"
 		android:paddingTop="20dp">
+         <!--Button for play again the game  -->
         <Button
             android:text="Play Again"
             android:layout_width="wrap_content"
@@ -55,7 +61,7 @@
             android:textColor="@color/fore"
             android:textSize="60px" 
 		 />
-
+         <!-- Button redirect to main menu layout -->
         <Button
             android:text="Main Menu"
             android:layout_width="wrap_content"
@@ -68,5 +74,5 @@
             android:textSize="60px" />
     </LinearLayout>
    
-
+     <!--End linear layout -->
 </LinearLayout>

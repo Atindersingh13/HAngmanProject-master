@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--LinearLayout layout start-->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffdE01">
+    <!--Image view  Diff steps images while playing game-->
     <ImageView
         android:src="@android:drawable/ic_menu_gallery"
         android:layout_width="match_parent"
@@ -14,7 +16,7 @@
         android:layout_marginBottom="20dp"
         android:adjustViewBounds="true" >
     </ImageView>
-
+    <!--LinearLayout layout start-->
     <LinearLayout
         android:orientation="horizontal"
         android:minWidth="25px"
@@ -23,6 +25,7 @@
         android:layout_height="140.2dp"
         android:id="@+id/linearLayout1"
         android:gravity="center">
+        <!--Text View where Guest word Showing in hiddin form   -->
         <TextView
             android:text="Guest Word"
             android:textAppearance="?android:attr/textAppearanceLarge"
@@ -37,6 +40,9 @@
             android:textAlignment="center"
             android:drawingCacheQuality="auto" />
     </LinearLayout>
+    <!--LinearLayout layout end-->
+    <!--Linear horizontal layout in this layout 10 keyboard button which are help to play game for enter words  -->
+   <!--LinearLayout layout start-->
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
@@ -44,6 +50,7 @@
         android:id="@+id/linearLayout2"
         android:layout_marginLeft="4dp"
         android:layout_marginRight="4dp">
+                <!--Button Word (Q)-->
         <Button
             android:text="Q"
             android:layout_width="wrap_content"
@@ -54,6 +61,7 @@
             android:textColor="#ff000000"
             android:textSize="20dp"
             android:textStyle="bold" />
+                <!--Button Word (W)-->
         <Button
             android:text="W"
             android:layout_width="wrap_content"
@@ -64,6 +72,7 @@
             android:textColor="#ff000000"
             android:textSize="20dp"
             android:textStyle="bold"/>
+                <!--Button Word (E)-->
         <Button
             android:text="E"
             android:layout_width="wrap_content"
@@ -74,8 +83,8 @@
             android:background="#ffdE01"
             android:textColor="#ff000000"
             android:textSize="20dp"
-            android:textStyle="bold"
-		/>
+            android:textStyle="bold"/>
+                <!--Button Word (R)-->
         <Button
             android:text="R"
             android:layout_width="wrap_content"
@@ -87,6 +96,7 @@
             android:textColor="#ff000000"
             android:textSize="20dp"
             android:textStyle="bold"/>
+                <!--Button Word (T)-->
         <Button
             android:text="T"
             android:layout_width="wrap_content"
@@ -98,6 +108,7 @@
             android:textColor="#ff000000"
             android:textSize="20dp"
             android:textStyle="bold"/>
+                <!--Button Word (Y)-->
         <Button
             android:text="Y"
             android:layout_width="wrap_content"
@@ -109,6 +120,7 @@
             android:textColor="#ff000000"
             android:textSize="20dp"
             android:textStyle="bold"/>
+                <!--Button Word (U)-->
         <Button
             android:text="U"
             android:layout_width="wrap_content"
@@ -120,6 +132,7 @@
             android:textColor="#ff000000"
             android:textSize="20dp"
             android:textStyle="bold"/>
+                <!--Button Word (I)-->
         <Button
             android:text="I"
             android:layout_width="wrap_content"
@@ -131,6 +144,7 @@
             android:textColor="#ff000000"
             android:textSize="20dp"
             android:textStyle="bold"/>
+                <!--Button Word (O)-->
         <Button
             android:text="O"
             android:layout_width="wrap_content"
@@ -142,6 +156,7 @@
             android:textColor="#ff000000"
             android:textSize="20dp"
             android:textStyle="bold"/>
+                <!--Button Word (P)-->
         <Button
             android:text="P"
             android:layout_width="wrap_content"
@@ -154,6 +169,9 @@
             android:textSize="20dp"
             android:textStyle="bold"/>
     </LinearLayout>
+    <!--LinearLayout layout end-->
+    <!--Linear horizontal layout in this layout 9 keyboard button which are help to play game for enter words  -->
+    <!--LinearLayout layout start-->
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
@@ -161,6 +179,7 @@
         android:id="@+id/linearLayout3"
         android:layout_marginLeft="8.58dp"
         android:layout_marginRight="8.58dp">
+                <!--Button Word (A)-->
         <Button
             android:text="A"
             android:layout_width="wrap_content"
@@ -174,6 +193,7 @@
             android:textColor="#ff000000"
             android:textSize="20dp"
             android:textStyle="bold"/>
+                <!--Button Word (S)-->
         <Button
             android:text="S"
             android:layout_width="wrap_content"
@@ -185,6 +205,7 @@
             android:textColor="#ff000000"
             android:textSize="20dp"
             android:textStyle="bold"/>
+                <!--Button Word (D)-->
         <Button
             android:text="D"
             android:layout_width="wrap_content"
@@ -196,6 +217,7 @@
             android:textColor="#ff000000"
             android:textSize="20dp"
             android:textStyle="bold"/>
+                <!--Button Word (F)-->
         <Button
             android:text="F"
             android:layout_width="wrap_content"
@@ -207,6 +229,7 @@
             android:textColor="#ff000000"
             android:textSize="20dp"
             android:textStyle="bold" />
+                <!--Button Word (G)-->
         <Button
             android:text="G"
             android:layout_width="wrap_content"
@@ -217,6 +240,7 @@
             android:textColor="#ff000000"
             android:textSize="20dp"
             android:textStyle="bold"/>
+                <!--Button Word (H)-->
         <Button
             android:text="H"
             android:layout_width="wrap_content"
@@ -227,16 +251,18 @@
             android:textColor="#ff000000"
             android:textSize="20dp"
             android:textStyle="bold" />
+                <!--Button Word (J)-->
         <Button
             android:text="J"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:id="@+id/btnJ"
             android:layout_weight="1"
-		android:background="#ffdE01"
+		  android:background="#ffdE01"
             android:textColor="#ff000000"
             android:textSize="20dp"
             android:textStyle="bold"/>
+                <!--Button Word (K)-->
         <Button
             android:text="K"
             android:layout_width="wrap_content"
@@ -247,17 +273,21 @@
             android:textColor="#ff000000"
             android:textSize="20dp"
             android:textStyle="bold"/>
+                <!--Button Word (L)-->
         <Button
             android:text="L"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:id="@+id/btnL"
             android:layout_weight="1"
-	android:background="#ffdE01"
+	      android:background="#ffdE01"
             android:textColor="#ff000000"
             android:textSize="20dp"
             android:textStyle="bold"/>
     </LinearLayout>
+    <!--LinearLayout layout end-->
+    <!--Linear horizontal layout in this layout 7 keyboard button which are help to play game for enter words  -->
+   <!--LinearLayout layout start-->
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
@@ -266,16 +296,18 @@
         
          android:layout_marginLeft="18.5dp"
         android:layout_marginRight="18.5dp">
+                  <!--Button Word (Z)-->
         <Button
             android:text="Z"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:id="@+id/btnZ"
             android:layout_weight="1" 
-	android:background="#ffdE01"
+	      android:background="#ffdE01"
             android:textColor="#ff000000"
             android:textSize="20dp"
             android:textStyle="bold"/>
+               <!--Button Word (X)-->
         <Button
             android:text="X"
             android:layout_width="wrap_content"
@@ -286,6 +318,7 @@
             android:textColor="#ff000000"
             android:textSize="20dp"
             android:textStyle="bold"/>
+                  <!--Button Word (C)-->
         <Button
             android:text="C"
             android:layout_width="wrap_content"
@@ -295,7 +328,8 @@
 		android:background="#ffdE01"
             android:textColor="#ff000000"
             android:textSize="20dp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"/>   
+        <!--Button Word (V)-->
         <Button
             android:text="V"
             android:layout_width="wrap_content"
@@ -307,6 +341,7 @@
             android:textColor="#ff000000"
             android:textSize="20dp"
             android:textStyle="bold"/>
+                <!--Button Word (B)-->
         <Button
             android:text="B"
             android:layout_width="wrap_content"
@@ -318,6 +353,7 @@
             android:textColor="#ff000000"
             android:textSize="20dp"
             android:textStyle="bold"/>
+                <!--Button Word (N)-->
         <Button
             android:text="N"
             android:layout_width="wrap_content"
@@ -330,6 +366,7 @@
             android:textSize="20dp"
             android:textStyle="bold"
 		/>
+        <!--Button Word (M)-->
         <Button
             android:text="M"
             android:layout_width="wrap_content"
@@ -342,5 +379,7 @@
             android:textSize="20dp"
             android:textStyle="bold"/>
     </LinearLayout>
+    <!--LinearLayout layout end-->
 
 </LinearLayout>
+<!--LinearLayout layout end-->

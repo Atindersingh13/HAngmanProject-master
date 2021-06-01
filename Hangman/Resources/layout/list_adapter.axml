@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+ <!--Start linear layout -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 	 android:background="@color/op1">
+     <!--textview Id:nametxt shown player name who played game recently -->
     <TextView
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -14,6 +16,7 @@
         android:textSize="28sp"
         android:layout_weight="1"
         android:textColor="#ff000000" />
+     <!-- Textview id:scoretxt shown high score -->
     <TextView
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -25,3 +28,4 @@
         android:textSize="28sp"
         android:textColor="#ff000000" />
 </LinearLayout>
+ <!--end linear layout -->
