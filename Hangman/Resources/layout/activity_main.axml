@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffdE01">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="401.1dp"
+        android:layout_height="310.5dp"
+        android:id="@+id/linearLayout1">
+       
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="73.5dp"
+            android:id="@+id/linearLayout2">
+            <EditText
+                android:hint="Enter Name or Select Player "
+                android:id="@+id/txtName"
+                android:inputType="textPersonName"
+                android:layout_width="248.0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="80" />
+            <Button
+                android:text="New Player"
+                android:layout_width="137.5dp"
+                android:layout_height="match_parent"
+                android:id="@+id/btnAdd"
+                android:layout_weight="20"
+                android:background="#ffff6d00"
+                android:textColor="#ff000000"
+                style="?android:attr/borderlessButtonStyle"
+                android:textStyle="bold"
+               
+                android:typeface="sans" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout3"
+            android:layout_marginTop="20dp"
+            android:gravity="center">
+            <CheckBox
+                android:text="Normal"
+                android:id="@+id/cbxEasy"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:checked="true"
+                android:layout_marginRight="52.0dp"
+                android:textColor="#ff000000"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                app:buttonTint="#ff000000" />
+            <CheckBox
+                android:text="Regular"
+                android:layout_width="183.0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/cbxNormal"
+                android:checked="true"
+                android:layout_marginRight="19.0dp"
+                android:textStyle="bold"
+                android:textColor="#ff000000"
+                android:textSize="25dp"
+                app:buttonTint="#ff000000" />
+            <CheckBox
+                android:text="Expert"
+                android:layout_width="156.0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/cbxDifficult"
+                android:checked="true"
+                android:layout_marginRight="31.5dp"
+                android:textColor="#ff000000"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                app:buttonTint="#ff000000" />
+        </LinearLayout>
+        <Button
+            android:text="Start Game"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnPlay"
+            android:textSize="30dip"
+            android:layout_gravity="center"
+            android:background="#ff00c853"
+            android:textColor="@color/fore"
+            android:layout_marginTop="30dp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:backgroundTint="#ff1b5e20"
+            android:typeface="sans"
+            android:radius="20dp"
+          
+    
+	 
+		/>
+
+
+
+    </LinearLayout>
+   <ListView
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="335.5dp"
+            android:id="@+id/listView1"
+          android:background="#ffdE01" />
+</LinearLayout>
